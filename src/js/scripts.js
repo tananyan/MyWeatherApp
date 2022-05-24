@@ -125,3 +125,37 @@ document.addEventListener("DOMContentLoaded", function () {
   // imgD.appendChild(image);
   // }
 });
+
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+// queueTime([10,2,3,3], 2)
+
+// function queueTime(customers, n) {
+//   let arr = new Array(n).fill(0);
+//   for (let k of customers) {
+//     let index = arr.indexOf(Math.min(...arr));
+//     arr[index] += k;
+//   }
+//   return Math.max.apply(null, arr);
+// }
+// console.log(queueTime([12, 5, 3, 5, 8, 14, 2], 3)); // 17 ///
